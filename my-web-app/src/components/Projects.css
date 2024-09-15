@@ -1,0 +1,22 @@
+.Projects {
+    display: flex;               /* Use flexbox to align content */
+    justify-content: center;      /* Horizontally center the box */
+    align-items: center;          /* Vertically center the box */
+    height: 90vh;                /* Full viewport height for vertical centering */
+    background-color: white;      /* Set the background color */
+  }
+  
+  .Projects-box {
+    background-color: white;      /* Box color */
+    width: 80%;                   /* Set the box width to 80% of the parent */
+    height: 80%;                  /* Set the box height to 80% of the viewport height */
+    border: 2px solid black;      /* Optional: Add a border around the box */
+    display: flex;                /* Flexbox for content inside */
+    justify-content: center;      /* Center content horizontally inside the box */
+    align-items: center;          /* Center content vertically inside the box */
+  }
+  
+  .Projects-text {
+    color: black;                 /* Text color inside the box */
+  }
+  
